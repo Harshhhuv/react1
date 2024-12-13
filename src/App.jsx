@@ -23,9 +23,7 @@ const App = () => {
         placeholder="Type something here"
         style={{ padding: '8px', width: '200px' }}
       />
-      <button onClick={handleCopy} style={{ marginLeft: '10px', padding: '8px 16px' }}>
-        Copy
-      </button>
+      
       <p>{copySuccess}</p>
     </div>
   );
